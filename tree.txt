@@ -1,0 +1,177 @@
+.
+├── app
+│   ├── activation
+│   │   └── [uid]
+│   │       └── [token]
+│   │           └── page.tsx
+│   ├── auth
+│   │   ├── facebook
+│   │   │   └── page.tsx
+│   │   ├── google
+│   │   │   └── page.tsx
+│   │   ├── login
+│   │   │   └── page.tsx
+│   │   └── register
+│   │       └── page.tsx
+│   ├── dashboard
+│   │   ├── layout.tsx
+│   │   └── page.tsx
+│   ├── favicon.ico
+│   ├── global.css
+│   ├── layout.tsx
+│   ├── not-found.tsx
+│   ├── page.tsx
+│   └── password-reset
+│       ├── page.tsx
+│       └── [uid]
+│           └── [token]
+│               └── page.tsx
+├── components
+│   ├── common
+│   │   ├── Footer.tsx
+│   │   ├── index.ts
+│   │   ├── List.tsx
+│   │   ├── Navbar.tsx
+│   │   ├── NavLink.tsx
+│   │   ├── SocialButtons.tsx
+│   │   ├── SocialButton.tsx
+│   │   └── Spinner.tsx
+│   ├── forms
+│   │   ├── Form.tsx
+│   │   ├── index.ts
+│   │   ├── Input.tsx
+│   │   ├── LoginForm.tsx
+│   │   ├── PasswordResetConfirmForm.tsx
+│   │   ├── PasswordResetForm.tsx
+│   │   └── RegisterForm.tsx
+│   └── utils
+│       ├── index.ts
+│       ├── RequireAuth.tsx
+│       └── Setup.tsx
+├── hooks
+│   ├── index.ts
+│   ├── use-login.ts
+│   ├── use-register.ts
+│   ├── use-reset-password-confirm.ts
+│   ├── use-reset-password.ts
+│   ├── use-social-auth.ts
+│   └── use-verify.ts
+├── next.config.js
+├── next-env.d.ts
+├── node_modules/
+├── package.json
+├── package-lock.json
+├── postcss.config.js
+├── public
+│   ├── favicon.png
+│   ├── logo.png
+│   ├── next.svg
+│   └── vercel.svg
+├── README.md
+├── redux
+│   ├── features
+│   │   ├── authApiSlice.ts
+│   │   └── authSlice.ts
+│   ├── hooks.ts
+│   ├── provider.tsx
+│   ├── services
+│   │   └── apiSlice.ts
+│   └── store.ts
+├── styles
+│   └── globals.css
+├── tailwind.config.js
+├── tree.txt
+├── tsconfig.json
+└── utils
+    ├── continue-with-social-auth.ts
+    └── index.ts
+
+
+├── src
+│    ├── app
+│    │   ├── activation
+│    │   │   └── [uid]
+│    │   │       └── [token]
+│    │   │           └── page.tsx
+│    │   ├── auth
+│    │   │   ├── facebook
+│    │   │   │   └── page.tsx
+│    │   │   ├── google
+│    │   │   │   └── page.tsx
+│    │   │   ├── login
+│    │   │   │   └── page.tsx
+│    │   │   └── register
+│    │   │       └── page.tsx
+│    │   ├── dashboard
+│    │   │   ├── layout.tsx
+│    │   │   └── page.tsx
+│    │   ├── favicon.ico
+│    │   ├── layout.tsx
+│    │   ├── not-found.tsx
+│    │   ├── page.tsx
+│    │   └── password-reset
+│    │       ├── page.tsx
+│    │       └── [uid]
+│    │           └── [token]
+│    │               └── page.tsx
+│    ├── components
+│    │   ├── common
+│    │   │   ├── Footer.tsx
+│    │   │   ├── index.ts
+│    │   │   ├── List.tsx
+│    │   │   ├── Navbar.tsx
+│    │   │   ├── NavLink.tsx
+│    │   │   ├── SocialButtons.tsx
+│    │   │   ├── SocialButton.tsx
+│    │   │   └── Spinner.tsx
+│    │   ├── forms
+│    │   │   ├── Form.tsx
+│    │   │   ├── index.ts
+│    │   │   ├── Input.tsx
+│    │   │   ├── LoginForm.tsx
+│    │   │   ├── PasswordResetConfirmForm.tsx
+│    │   │   ├── PasswordResetForm.tsx
+│    │   │   └── RegisterForm.tsx
+│    │   └── utils
+│    │       ├── index.ts
+│    │       ├── RequireAuth.tsx
+│    │       └── Setup.tsx
+│    ├── hooks
+│    │   ├── index.ts
+│    │   ├── use-login.ts
+│    │   ├── use-register.ts
+│    │   ├── use-reset-password-confirm.ts
+│    │   ├── use-reset-password.ts
+│    │   ├── use-social-auth.ts
+│    │   └── use-verify.ts
+│    ├── redux
+│    │   ├── features
+│    │   │   ├── authApiSlice.ts
+│    │   │   └── authSlice.ts
+│    │   ├── hooks.ts
+│    │   ├── provider.tsx
+│    │   ├── services
+│    │   │   └── apiSlice.ts
+│    │   └── store.ts
+|    └── utils
+|        ├── continue-with-social-auth.ts
+|        └── index.ts
+├── next.config.js
+├── next-env.d.ts
+├── node_modules/
+├── package.json
+├── package-lock.json
+├── postcss.config.js
+├── public
+│   ├── favicon.png
+│   ├── logo.png
+│   ├── next.svg
+│   └── vercel.svg
+├── README.md
+├── styles
+│   └── globals.css
+├── tailwind.config.js
+└── tsconfig.json
+
+
+1838 directories, 18943 files

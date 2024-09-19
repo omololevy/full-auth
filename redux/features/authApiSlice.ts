@@ -1,9 +1,11 @@
+import { Url } from 'url';
 import { apiSlice } from '../services/apiSlice';
 
 interface User {
 	first_name: string;
 	last_name: string;
 	email: string;
+	avatar: string;
 }
 
 interface SocialAuthArgs {
